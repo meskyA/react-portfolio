@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { React, useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../utils/helpers';
 require('dotenv/lib/main').config()
