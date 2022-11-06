@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../utils/helpers';
-require('../../../../react-portfolio/node_modules/dotenv/lib/main').config()
+require('dotenv/lib/main').config()
 
 export default function Contact() {
   const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);

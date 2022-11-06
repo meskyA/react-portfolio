@@ -1,9 +1,5 @@
 import React from "react";
-// import NavTabs from './NavTabs';
-// import Home from './pages/Home';
-// import About from './pages/About';
-// import Portfolio from './pages/Portfolio';
-// import Contact from './pages/Contact';
+
 
 function Project(props) {
   return (
