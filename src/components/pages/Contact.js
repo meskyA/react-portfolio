@@ -1,4 +1,4 @@
-import React, { useState } from '../../../../react-portfolio/node_modules/@types/react';
+import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../utils/helpers';
 require('../../../../react-portfolio/node_modules/dotenv/lib/main').config()

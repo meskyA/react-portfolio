@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../../react-portfolio/node_modules/@types/react';
 
 export default function Resume() {
   return (

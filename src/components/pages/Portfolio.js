@@ -1,4 +1,4 @@
-import React from '../../../../react-portfolio/node_modules/@types/react';
+import React from 'react';
 import Project from './Project';
 
 const projects = [
