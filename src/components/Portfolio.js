@@ -50,12 +50,18 @@ const projects = [
   
 ]
 
-export default function Portfolio() {
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
+}
+function Portfolio() {
   return (
     <div>
-      <p className='content is-medium'>Portfolio</p>
+      <p className="content is-medium">Portfolio</p>
       <hr />
+
       <Project projects={projects} />
     </div>
   );
 }
+
+export default Portfolio;

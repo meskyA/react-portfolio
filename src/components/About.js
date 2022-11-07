@@ -6,7 +6,7 @@ export default function About() {
    
       <p className='content is-medium'>Full Stack Developer</p>
       <hr/>
-      <img className='photo' src={process.env.PUBLIC_URL + '/img/profile.jpg'} alt="Meskerem (Mesky) Assefa"/>
+      <img class="mb-5" id="avatar" src="Assets/my-image.jpeg" alt="Meskerem 'Mesky' Assefa" />
       <p className='content'>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
