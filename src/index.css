@@ -1,12 +1,12 @@
 body {
   font-family:  'Helvetica Neue',
     sans-serif;
-  background-color:  6d597a; 
+  background-color:  #6d597a; 
   text-align: center;
 }
 
 .navbar, .navbar-brand {
-  background-color: 14213d;
+  background-color: #14213d;
   text-align: center;
   display: block;
   width: 100%;
@@ -23,11 +23,6 @@ div.navbar-brand {
 }
 
 main {
-  /* margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: 30em;
-  margin-right: 30em; */
-  margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
 }
@@ -42,7 +37,7 @@ main {
 }
 
 footer.footer {
-  background.color: 5e548e;
+  background.color: #5e548e;
 }
 
 @media only screen and (max-width: 1025px) {
