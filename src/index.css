@@ -37,7 +37,7 @@ main {
 }
 
 footer.footer {
-  background.color: #5e548e;
+  background-color: #5e548e;
 }
 
 @media only screen and (max-width: 1025px) {
