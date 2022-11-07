@@ -6,7 +6,7 @@ body {
 }
 
 .navbar, .navbar-brand {
-  background-color: #003049;
+  background-color: #219ebc;
   text-align: center;
   display: block;
   width: 100%;
@@ -20,6 +20,7 @@ div.navbar-brand {
 .navbar .navbar-brand > .navbar-item,
 .navbar .navbar-brand .navbar-link {
   display: inline-block;
+  color: #c6ac8f;
 }
 
 main {
@@ -38,10 +39,10 @@ main {
   text-align: left;
 }
 #contact-form {
-  
+
 }
 footer.footer {
-  background-color: #003049;
+  background-color: #219ebc;
 }
 
 @media only screen and (max-width: 1025px) {

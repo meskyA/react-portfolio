@@ -44,19 +44,28 @@ const projects = [
     image: 'Assets/Home-page.png',
     description: 'MVC (Model-View-Controller) framework to create a blog website where users can create an account, login by using user name and password',
     technologies: 'CSS, JavaScript, Handlebars, Node.js, Express, MySql, JawsDB, Heroku',
-    repo: 'https://github.com/meskyA/mvc-tech-blog)',
+    repo: 'https://github.com/meskyA/mvc-tech-blog',
     deploy: 'https://my-mvc-tech-blog.herokuapp.com/',
+  },
+  {
+  id: 5,
+    name: 'Social-Network API',
+    image: 'Assets/image-demo-3.png',
+    description: 'This is a back-end application for a Social Netwrok web where users can post thoughts, create friends list, and react to other users thoughts.',
+    technologies: 'Express.js, JavaScript, Moment.js, Node.js, MongoDB, Mongoose, Mongoose validator, Insomnia',
+    repo: 'https://github.com/meskyA/social-network-API',
+    deploy: 'https://drive.google.com/file/d/1bGm6aezmlEgQoI-W42BN4TtqRAJLeBcB/view',
   },
   
 ]
 
-function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
-}
+// function Wrapper(props) {
+// //   return <div className="wrapper">{props.children}</div>;
+// }
 function Portfolio() {
   return (
     <div>
-      <p className="content is-medium">Portfolio</p>
+      <p className="content is-large">Portfolio</p>
       <hr />
 
       <Project projects={projects} />

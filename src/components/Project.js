@@ -49,7 +49,7 @@ function Project(props) {
                       </a>
                       <br />
                       <a
-                        href={project.live}
+                        href={project.deploy}
                         className="card-footer-item"
                         target="_blank"
                         rel="noreferrer"

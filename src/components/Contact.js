@@ -103,7 +103,7 @@ return (
 <section className="container">
   <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
   <hr></hr>
-  <form class="justify-content-center" id="contact-form">
+  <form class="" id="contact-form">
       <div class="mt-5" >
           <label htmlFor="name">Name:</label>
           <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
