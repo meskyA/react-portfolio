@@ -34,15 +34,19 @@ main {
   clip-path: oval();
   width: 150px;
 }
-
+.mt-8 {
+  align: center;
+}
 .label {
   display-block: left;
 }
 #contact-form {
   width: 40%;
   display-block: flex;
-
-
+}
+.form-control {
+  length: 600px;
+  width: 600px;
 }
 footer.footer {
   background-color: #219ebc;

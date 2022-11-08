@@ -43,21 +43,24 @@ return (
   <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
   <hr></hr>
   <form class="justify-content-center" id="contact-form">
-      {/* <div class="mt-5" > */}
-      <div class="display: flex " >
+       <div class="mt-8" > 
+      <div class= "display: flex"> 
 
           <label 
           htmlFor="name">Name:</label>
-          <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
-          </div>
-      {/* </div> */}
-      <div class="mt-5" >
-          <label htmlFor="email">Email</label>
-          <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
+          <div>
+         
+          <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange} rows="4"/></div>
+      </div> 
+      <div class="mt-8" >
+          <label htmlFor="email">Email</label><br></br>
+          <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} rows="4"/>
       </div>
-      <div class="mt-5" >
-          <label htmlFor="message">Message</label>
-          <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="6" />
+      <div class="mt-8" >
+        <div>
+          <label htmlFor="message">Message</label></div>
+          <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
+      </div> 
       </div> 
       {errorMessage && (
       <div>
