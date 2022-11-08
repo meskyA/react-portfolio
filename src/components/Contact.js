@@ -43,10 +43,14 @@ return (
   <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
   <hr></hr>
   <form class="justify-content-center" id="contact-form">
-      <div class="mt-5" >
-          <label htmlFor="name">Name:</label>
+      {/* <div class="mt-5" > */}
+      <div class="display: flex " >
+
+          <label 
+          htmlFor="name">Name:</label>
           <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
-      </div>
+          </div>
+      {/* </div> */}
       <div class="mt-5" >
           <label htmlFor="email">Email</label>
           <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />

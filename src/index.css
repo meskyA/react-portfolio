@@ -36,11 +36,12 @@ main {
 }
 
 .label {
-  text-align: left;
+  display-block: left;
 }
 #contact-form {
   width: 40%;
-  
+  display-block: flex;
+
 
 }
 footer.footer {
