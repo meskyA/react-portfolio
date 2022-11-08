@@ -1,6 +1,6 @@
 # 20 React: React Portfolio
 
-## Your Desccription
+## Your Description
 
 This is a personal profile of myself built by using React. It is a single-page application. I included projects I worked on while attending coding bootcamp. 
 
