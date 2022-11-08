@@ -5,7 +5,7 @@ const projects = [
   {
     id: 0,
     name: 'Horiseon',
-    image: 'Assets/online-reputation-management.jpg',
+    image: '/Assets/online-reputation-management.jpg',
     description: 'Web Accessibility',
     technologies: 'HTML & CSS',
     repo: 'https://github.com/meskyA/horiseon',
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 1,
     name: 'PORTFOLIO',
-    image: 'Assets/portfolio-challenge.jpeg',
+    image: '/Assets/portfolio-challenge.jpeg',
     description: 'Basic-Portfolio',
     technologies: 'HTML & CSS',
     repo: 'https://github.com/meskyA/portfolio',
@@ -23,7 +23,7 @@ const projects = [
   {
     id: 2,
     name: 'Weather Dashboard',
-    image: 'Assets/Weather-Dashboard-Screen-Shot.png',
+    image: '/Assets/Weather-Dashboard-Screen-Shot.png',
     description: 'A weather dashboard APP',
     technologies: 'HTML, CSS and JavaScript',
     repo: 'https://github.com/meskyA/weather-dashboard',
@@ -32,7 +32,7 @@ const projects = [
   {
     id: 3,
     name: 'Timed Quiz',
-    image: 'Assets/Quiz-Challenge-Screen-Shot-1.png',
+    image: '/Assets/Quiz-Challenge-Screen-Shot-1.png',
     description: 'A timed coding quiz with multiple-choice.',
     technologies: 'HTML, CSS and JavaScript',
     repo: 'https://github.com/meskyA/timed-quiz',
