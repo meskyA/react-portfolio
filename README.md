@@ -35,5 +35,5 @@ As an employer searching to an employee, I want to view a potential candidate's 
 
 ### Links
 
-[Github-link](https://github.com/meskyA/react-portfolio)
-[Deployed-link]
+- [Github-link](https://github.com/meskyA/react-portfolio)
+- [Deployed-link](https://meskya.github.io/react-portfolio/)
