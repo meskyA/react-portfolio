@@ -29,11 +29,12 @@ As an employer searching to an employee, I want to view a potential candidate's 
 
 ### Screen Shots
 
-- [Screen-Shot](react-portfolio/public/Assets/project-img-3.png)
-- [Screen-Shot](react-portfolio/public/Assets/project-img-2.png)
-- [Screen-Shot](react-portfolio/public/Assets/project-img-1.png)
+- ![Screen-Shot](./Assets/project-img-3.png)
+- ![Screen-Shot](./Assets/project-img-3.png)
+- ![Screen-Shot](./Assets/project-img-2.png)
+- ![Screen-Shot](./Assets/project-img-1.png)
 
 ### Links
 
-- [Github-link](https://github.com/meskyA/react-portfolio)
+- [Github-link](https://github.com/meskyA/react-portfolio/tree/deploy)
 - [Deployed-link](https://meskya.github.io/react-portfolio/)

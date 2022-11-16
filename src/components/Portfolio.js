@@ -41,7 +41,7 @@ const projects = [
   {
     id: 4,
     name: 'MVC Tech Blog',
-    image: 'Assets/Home-page.png',
+    image: '/Assets/Home-page.png',
     description: 'MVC (Model-View-Controller) framework to create a blog website where users can create an account, login by using user name and password',
     technologies: 'CSS, JavaScript, Handlebars, Node.js, Express, MySql, JawsDB, Heroku',
     repo: 'https://github.com/meskyA/mvc-tech-blog',
@@ -50,7 +50,7 @@ const projects = [
   {
   id: 5,
     name: 'Social-Network API',
-    image: 'Assets/image-demo-3.png',
+    image: '/Assets/image-demo-3.png',
     description: 'This is a back-end application for a Social Netwrok web where users can post thoughts, create friends list, and react to other users thoughts.',
     technologies: 'Express.js, JavaScript, Moment.js, Node.js, MongoDB, Mongoose, Mongoose validator, Insomnia',
     repo: 'https://github.com/meskyA/social-network-API',
