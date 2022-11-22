@@ -10,11 +10,11 @@ function Footer() {
                     <strong>My Web Development Portfolio</strong>  {' '}
                    
                     <hr />
-                    <a href='https://github.com/meskyA' target='_blank' rel='noreferrer'>
+                    <a href='/https://github.com/meskyA/react-portfolio/tree/deploy/' target='_blank' rel='noreferrer'>
                         <BsGithub/>
                     </a>{' '}
                     |{' '}{' '}
-                    <a href='https://www.linkedin.com/in/mesky-assefa-2030i/' target='_blank' rel='noreferrer'>
+                    <a href='/https://www.linkedin.com/in/mesky-assefa-2030i/' target='_blank' rel='noreferrer'>
                         < BsLinkedin />
                     </a>{' '}
                     |{' '}{' '}

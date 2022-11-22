@@ -20,7 +20,7 @@ As an employer searching to an employee, I want to view a potential candidate's 
 - npx create-react-app my-app
 - npm i
 
-## Tecnologies
+## Technologies
 
 - React
 - CSS to style
@@ -28,11 +28,11 @@ As an employer searching to an employee, I want to view a potential candidate's 
 - React-Bootstrap-Icons
 
 ### Screen Shots
-- ![Screen-Shot](./Assets/project-img-3.png)
-- ![Screen-Shot](./Assets/project-img-1.png)
-- ![Screen-Shot](./Assets/project-img-2.png)
-- ![Screen-Shot](./Assets/contact-page.png)
-- ![Screen-Shot](./Assets/resume-page.png)
+- ![Screen-Shot](./public/Assets/project-img-3.png)
+- ![Screen-Shot](./public/Assets/project-img-1.png)
+- ![Screen-Shot](./public/Assets/project-img-2.png)
+- ![Screen-Shot](./public/Assets/contact-page.png)
+- ![Screen-Shot](./public/Assets/resume-page.png)
 
 
 
