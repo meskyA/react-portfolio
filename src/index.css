@@ -21,6 +21,7 @@ div.navbar-brand {
 .navbar .navbar-brand .navbar-link {
   display: inline-block;
   color: #c6ac8f;
+  background-image: url('public/Assets/technology-background.jpg');
 }
 
 main {
