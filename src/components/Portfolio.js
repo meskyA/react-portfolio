@@ -56,12 +56,18 @@ const projects = [
     repo: 'https://github.com/meskyA/social-network-API',
     deploy: 'https://drive.google.com/file/d/1bGm6aezmlEgQoI-W42BN4TtqRAJLeBcB/view',
   },
+  {
+    id: 6,
+      name: 'Potluck',
+      image: '/Assets/home.png',
+      description: 'This is a frontend back-end application for a Potluck App that enables users to create potluck and share distes with friends and families.',
+      technologies: 'Express.js, JavaScript, Moment.js, Node.js, MongoDB, Mongoose, Mongoose, GraphQl, CSS',
+      repo: 'https://github.com/mconanan/potluck',
+      deploy: 'https://sharecuterie.herokuapp.com/',
+    },
   
 ]
 
-// function Wrapper(props) {
-// //   return <div className="wrapper">{props.children}</div>;
-// }
 function Portfolio() {
   return (
     <div>

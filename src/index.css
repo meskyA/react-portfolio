@@ -6,7 +6,9 @@ body {
 }
 
 .navbar, .navbar-brand {
-  background-color: #219ebc;
+  /* background-color: #219ebc; */
+
+  background-image: url('./technology-background.jpg');
   text-align: center;
   display: block;
   width: 100%;
@@ -21,7 +23,7 @@ div.navbar-brand {
 .navbar .navbar-brand .navbar-link {
   display: inline-block;
   color: #c6ac8f;
-  background-image: url('./technology-background.jpg');
+ 
 }
 
 main {
