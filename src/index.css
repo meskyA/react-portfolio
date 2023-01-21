@@ -25,7 +25,10 @@ div.navbar-brand {
   color: #c6ac8f;
  
 }
-
+.content-name {
+  color: white;
+  text-font: 60px
+}
 main {
 	max-width: 90%;
   padding: 50px 30px;

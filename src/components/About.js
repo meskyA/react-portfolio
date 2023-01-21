@@ -8,11 +8,8 @@ export default function About() {
       <hr/>
       <img class="mb-5" id="avatar" src="/react-portfolio/Assets/profilepic.jpg" alt="Meskerem 'Mesky' Assefa" />
       <p className='content'>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo. 
+      Full Stack Web Developer graduated from a 6-months bootcamp at UC Berkeley Extension. Currently living in Oakland, CA and excited to transmit the new technologies I learned to create pleasant looking and responsive websites with user-friendliness in mind. Passionate about  adapting life experience of communication, cultural competence and leadership skills with this new journey and adventure of coding. Love traveling and appreciate the beauty of diversity in our world.
+ 
       </p>
     </div>
   );

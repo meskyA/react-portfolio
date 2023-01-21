@@ -27,11 +27,9 @@ function Header() {
       <div>
           <nav className='navbar'>
               <div className="navebar-brand">
-                  <a
-                  className="navbar-item" rel="nonreferrer" target="_blank"
-                  href='https://github.com/meskyA'>
-                      <span className="content is-large">Meskerem 'Mesky' Assefa</span>
-                  </a>
+                
+                      <span className="content-name is-large">Meskerem 'Mesky' Assefa</span>
+              
               </div>
           </nav>
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

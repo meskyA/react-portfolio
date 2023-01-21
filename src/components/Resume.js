@@ -7,9 +7,9 @@ export default function Resume() {
         <p className='contnet is-medium'>Resume</p>
         <hr />
 
-        <a className='button is-primary' href={process.env.PUBLI_URL + '/mesky-resume.pdf'} target='_blank' rel='noreferrer'>
+        <a className='button is-primary' href={process.env.PUBLI_URL + './public/Assets/MA Resume-12:2022  .pdf'} target='https://docs.google.com/document/d/1rouUpFwGRwc0RpK9xfsntFJWJdtocgFg/edit?usp=sharing&ouid=114677746370861015726&rtpof=true&sd=true' rel='https://docs.google.com/document/d/1rouUpFwGRwc0RpK9xfsntFJWJdtocgFg/edit?usp=sharing&ouid=114677746370861015726&rtpof=true&sd=true'>
           <span className='icon'>
-            <i className='fas fa-download'></i>
+            <i className='fas fa-download' src='public/Assets/MA Resume-12:2022.pdf'></i>
           </span>
           <span>Download Resume</span>
         </a>
