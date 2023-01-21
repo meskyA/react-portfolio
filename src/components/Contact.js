@@ -1,59 +1,49 @@
-// import React, { useState } from "react";
-// import { validateEmail } from "../utils/helpers";
-// import React from "react";
-// import { Link } from "react-router-dom";
-// const ButtonMailto = ({ mailto, label }) => {
-//   return (
-//       <Link
-//           to='#'
-//           onClick={(e) => {
-//               window.location.href = mailto;
-//               e.preventDefault();
-//           }}
-//       >
-//   
-// function ContactForm() {
-//   const [formState, setFormState] = useState({
-//     name: "Meskerem Assefa",
-//     email: "mesky2015@gmail.com",
-//     message: "Please feel free to reachout. Thank you for visiting my page.",
-//   });
 
-//   const [errorMessage, setErrorMessage] = useState("");
+import React, { useState } from "react";
+import { validateEmail } from "../utils/helpers";
 
-//   const { name, email, message } = formState;
+function ContactForm() {
+  const [formState, setFormState] = useState({
+    name: "Meskerem Assefa",
+    email: "mesky2015@gmail.com",
+    message: "Please feel free to reachout. Thank you for visiting my page.",
+  });
 
-//   function handleChange(e) {
-//     if (e.target.name === "email") {
-//       const isValid = validateEmail(e.target.value);
+  const [errorMessage, setErrorMessage] = useState("");
 
-//       if (!isValid) {
-//         setErrorMessage("please enter a valid email");
-//       } else {
-//         setErrorMessage("");
-//       }
-//     } else {
-//       if (!e.target.value.length) {
-//         setErrorMessage(`${e.target.name} is required.`);
-//       } else {
-//         setErrorMessage("");
-//       }
-//     }
+  const { name, email, message } = formState;
 
-//     if (!errorMessage) {
-//       setFormState({ ...formState, [e.target.name]: e.target.value });
-//     }
-//   }
+  function handleChange(e) {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
 
-// function handleSubmit(e) {
-//   e.preventDefault();
-// }
+      if (!isValid) {
+        setErrorMessage("please enter a valid email");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage("");
+      }
+    }
 
-// return (
-// <section className="container">
-//   <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
+  }
+
+function handleSubmit(e) {
+  e.preventDefault();
+}
+
+return (
+<section className="container">
+  <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
   <hr></hr>
-  /* <form class="justify-content-center" id="contact-form">
+  <form class="justify-content-center" id="contact-form">
        <div class="mt-8" > 
       <div class= "display: flex"> 
 
@@ -82,40 +72,10 @@
       <div class="mt-5 mb-5" >
       <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
       </div>
-  </form> */
+  </form>
+</section>
+);
+}
 
-// );
-// }
 
-
-// export default ContactForm;
-// export default ButtonMailto;
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-
-export const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
-
-  return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-  );
-};
+export default ContactForm;
