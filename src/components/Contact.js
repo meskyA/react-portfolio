@@ -2,9 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
 
-// import React, { useState } from "react";
-// import { validateEmail } from "../utils/helpers";
-
 const Contact = () => {
   const form = useRef();
 
