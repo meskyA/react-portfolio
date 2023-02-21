@@ -71,7 +71,7 @@ const projects = [
 function Portfolio() {
   return (
     <div>
-      <p className="content is-large">Portfolio</p>
+      <p className="content is-large">PROJECTS</p>
       <hr />
 
       <Project projects={projects} />

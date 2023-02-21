@@ -12,11 +12,11 @@ function Header() {
     switch (currentPage) {
       case "About":
         return <About />;
-      case "Portfolio":
+      case "Projects":
         return <Portfolio />;
       case "Contact":
         return <Contact />;
-      case "Resume":
+      case "Skills":
         return <Resume />;
 
     default:
